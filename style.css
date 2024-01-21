@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #141414ff;
+  width: 100vh;
+  font-family: "Inter", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 95vh;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.container {
+  background-color: #1f1f1fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2vh;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4vh;
+}
+.profile-image {
+  width: 20%;
+  border-radius: 50%;
+  margin: 2vh auto;
+}
+.username {
+  color: #ffffffff;
+  font-weight: 500;
+  white-space: nowrap;
+  font-size: 4vh;
+  padding: 1vh;
+}
+.address {
+  font-weight: 650;
+  color: #accf3aff;
+  padding-bottom: 2vh;
+}
+.role {
+  color: white;
+  font-weight: 300;
+  padding: 2vh;
+}
+.btn {
+  width: 90%;
+  background-color: #333333ff;
+  border: none;
+  padding: 2vh;
+  border-radius: 1vh;
+  font-size: medium;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.07vh;
+  white-space: nowrap;
+  margin-top: 2.5vh;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #c4f72aff;
+  color: #333333ff;
+}
